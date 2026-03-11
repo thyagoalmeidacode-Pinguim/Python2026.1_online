@@ -1,4 +1,4 @@
-# Aula: Operadores Matemáticos e Lógicos em Python (Sem if)
+# Aula: Operadores Matemáticos e Lógicos em Python
 
 ## 1. Introdução
 
