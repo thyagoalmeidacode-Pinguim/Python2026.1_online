@@ -137,7 +137,7 @@ print("not(media < 7):", not(media < 7))  # True
 
 ## 7. Desafios para Prática (Sem if)
 
-1. Crie um prohrama que solicite dois numeros ao usuario,  em seguida exiba a soma, subtração, multiplicação e divisão dos numeros.
+1. Crie um programa que solicite dois numeros ao usuario,  em seguida exiba a soma, subtração, multiplicação e divisão dos numeros.
 
 ---
 
