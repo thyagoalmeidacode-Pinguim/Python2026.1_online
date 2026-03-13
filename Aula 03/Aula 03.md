@@ -135,5 +135,3 @@ print(resultado1, resultado2, resultado3, resultado4)  # False True True False
 ### O objetivo é praticar operações matemáticas, comparação e operadores lógicos sem usar IF ainda
 
 ---
-
-**FIM DA AULA**
