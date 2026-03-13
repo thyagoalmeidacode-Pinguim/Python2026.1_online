@@ -137,11 +137,7 @@ print("not(media < 7):", not(media < 7))  # True
 
 ## 7. Desafios para Prática (Sem if)
 
-1. Calcule a média de três números digitados pelo usuário e exiba se a média é maior ou igual a 7.
-2. Verifique se um número é par usando o operador `%` e exiba o resultado booleano.
-3. Combine operadores matemáticos e lógicos em uma expressão que mostre se a soma de dois números é maior que 10 **ou** a diferença é menor que 5.
-4. Teste expressões com `and`, `or` e `not` usando diferentes valores booleanos.
-5. Calcule o quadrado, cubo e raiz quadrada de um número e combine com uma expressão lógica.
+1. Crie um prohrama que solicite dois numeros ao usuario,  em seguida exiba a soma, subtração, multiplicação e divisão dos numeros.
 
 ---
 
