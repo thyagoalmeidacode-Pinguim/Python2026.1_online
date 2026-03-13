@@ -124,15 +124,15 @@ print(resultado1, resultado2, resultado3, resultado4)  # False True True False
 1. Crie um programa que solicite dois numeros ao usuario,  em seguida exiba a soma, subtração, multiplicação e divisão dos numeros.
 2. Peça ao usuário (ou defina) três notas de um aluno: nota1, nota2 e nota3.
 
-- Calcule a média das três notas.
+    - Calcule a média das três notas.
 
-- Mostre se a média é maior ou igual a 7 (True/False).
+    - Mostre se a média é maior ou igual a 7 (True/False).
 
-- Verifique a expressão lógica: média < 5 ou nota3 > 6 e exiba o resultado.
+    - Verifique a expressão lógica: média < 5 ou nota3 > 6 e exiba o resultado.
 
-- Verifique a expressão lógica not(media < 7) e exiba o resultado.
+    - Verifique a expressão lógica not(media < 7) e exiba o resultado.
 
-* O objetivo é praticar operações matemáticas, comparação e operadores lógicos sem usar
+* O objetivo é praticar operações matemáticas, comparação e operadores lógicos sem usar IF ainda
 
 ---
 
