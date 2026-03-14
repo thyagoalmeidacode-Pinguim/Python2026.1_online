@@ -130,9 +130,9 @@ O programa deve:
 3. Verificar se a média é **maior que 5**.
 4. Exibir na tela:
    - A **média** do aluno.
-   - **True** se a média for **maior que 5**
-   - **False** se a média for **menor ou igual a 5** 
-   
+   - **True** se a média for **maior ou igual que 5**
+   - **False** se a média for **menor a 5** 
+
 - Utilize apenas uma **expressão de comparação** para gerar o resultado `True` ou `False`.
 
 ### O objetivo é praticar operações matemáticas, comparação e operadores lógicos sem usar IF ainda
