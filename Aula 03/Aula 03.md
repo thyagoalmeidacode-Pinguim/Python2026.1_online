@@ -123,16 +123,12 @@ print(resultado1, resultado2, resultado3, resultado4)  # False True True False
 
 1. Crie um programa que solicite dois numeros ao usuario,  em seguida exiba a soma, subtração, multiplicação e divisão dos numeros.
 2. Exercício: Cálculo de Média
-
-## Enunciado
-
 Crie um programa que peça ao usuário três notas de um aluno:
 - nota1
 - nota2
 - nota3
 
 O programa deve:
-
 1. Ler as três notas digitadas pelo usuário.
 2. Calcular a **média** das três notas.
 3. Verificar se a média é **maior que 5**.
@@ -142,7 +138,6 @@ O programa deve:
    - **False** se a média for **menor ou igual a 5** 
 
 ## Observação
-
 - O programa **não deve utilizar `if`**.
 - Utilize apenas uma **expressão de comparação** para gerar o resultado `True` ou `False`.
 
