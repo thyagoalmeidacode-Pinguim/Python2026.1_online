@@ -122,7 +122,7 @@ print(resultado1, resultado2, resultado3, resultado4)  # False True True False
 ## 6. Desafios para Prática (Sem if)
 
 1. Crie um programa que solicite dois numeros ao usuario,  em seguida exiba a soma, subtração, multiplicação e divisão dos numeros.
-2. # Exercício: Cálculo de Média
+2. Exercício: Cálculo de Média
 
 ## Enunciado
 
