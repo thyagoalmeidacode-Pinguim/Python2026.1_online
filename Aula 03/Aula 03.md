@@ -122,15 +122,29 @@ print(resultado1, resultado2, resultado3, resultado4)  # False True True False
 ## 6. Desafios para Prática (Sem if)
 
 1. Crie um programa que solicite dois numeros ao usuario,  em seguida exiba a soma, subtração, multiplicação e divisão dos numeros.
-2. Peça ao usuário três notas de um aluno: nota1, nota2 e nota3.
+2. # Exercício: Cálculo de Média
 
-      - Calcule a média das três notas.
+## Enunciado
 
-      - Mostre se a média é maior ou igual a 7 (True/False).
+Crie um programa que peça ao usuário três notas de um aluno:
+- nota1
+- nota2
+- nota3
 
-      - Verifique a expressão lógica: média < 5 ou nota3 > 6 e exiba o resultado.
+O programa deve:
 
-      - Verifique a expressão lógica not(media < 7) e exiba o resultado.
+1. Ler as três notas digitadas pelo usuário.
+2. Calcular a **média** das três notas.
+3. Verificar se a média é **maior que 5**.
+4. Exibir na tela:
+   - A **média** do aluno.
+   - **True** se a média for **maior que 5**
+   - **False** se a média for **menor ou igual a 5** 
+
+## Observação
+
+- O programa **não deve utilizar `if`**.
+- Utilize apenas uma **expressão de comparação** para gerar o resultado `True` ou `False`.
 
 ### O objetivo é praticar operações matemáticas, comparação e operadores lógicos sem usar IF ainda
 

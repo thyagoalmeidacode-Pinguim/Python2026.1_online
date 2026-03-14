@@ -1,0 +1,12 @@
+Nome: Mario Silva
+Idade: 18 Anos
+Curso: Pyhton
+Email: ms@gmail.com
+
+-----------------------------------
+Nome: Robson Aarantes 
+Idade: 65 Anos
+Curso: Informatica Fundamental
+Email: raa@gmail.com
+
+-----------------------------------
