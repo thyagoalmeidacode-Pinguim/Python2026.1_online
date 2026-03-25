@@ -22,7 +22,7 @@ O jogo utiliza um sistema de pontos que incentiva a precisão:
 O jogador começa com uma base de **100 pontos** (valor ajustável).
 
 ### ⚖️ Regras por nível
-Os valores de ganho e perda podem variar conforme a dificuldade, deixando os níveis mais difíceis mais recompensadores, mas também mais punitivos.
+Os valores de perda podem variar conforme a dificuldade, deixando os níveis mais difíceis mais recompensadores, mas também mais punitivos.
 
 | Nível | Ganho por Acerto | Perda por Erro |
 |-------|------------------|----------------|
