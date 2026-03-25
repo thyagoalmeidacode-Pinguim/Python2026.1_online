@@ -1,27 +1,26 @@
-# Exercício: Simulação de Sistema Bancário Básico
+# 📘 Atividade: Controle de Acesso no Sistema Bancário
 
-## Objetivo
-Criar um programa em Python que simule o funcionamento básico de uma conta bancária, incluindo abertura de conta, depósito inicial, e operações de saque, depósito e consulta de saldo.
+Recupere o código do sistema bancário desenvolvido em aula anteriormente.
 
-## Descrição do Problema
-1. Solicite ao usuário o **nome do titular da conta**.  
-2. Solicite ao usuário o **valor do depósito inicial** e valide se o valor é um número positivo.  
-   - Se o valor informado for válido (maior ou igual a 0), a conta é aberta com este saldo.  
-   - Caso contrário, a conta é aberta com saldo **R$ 0,00** e uma mensagem de aviso é exibida.  
+## 🎯 Objetivo
+Modificar o programa para que ele **permaneça em execução até que o usuário escolha sair**.
 
-3. Pergunte ao titular se ele deseja **realizar alguma operação**.  
-   - Caso a resposta seja afirmativa, o programa deve permitir que o usuário escolha entre três operações:  
-     - **Sacar**: Solicitar o valor a ser sacado e verificar se há saldo suficiente.  
-     - **Depositar**: Solicitar o valor do depósito e validar se é positivo.  
-     - **Saldo**: Exibir o saldo disponível.  
-   - Caso a resposta seja negativa, o programa deve exibir uma mensagem de encerramento do atendimento.  
+## 📝 O que deve ser feito
+Atualmente, o programa executa apenas uma operação e encerra. Sua tarefa é:
 
-4. Ao final de cada operação, exibir mensagens informando o resultado da operação e o saldo atual, se aplicável.  
+- Implementar uma estrutura de repetição (`while`) para manter o sistema rodando.
+- Exibir continuamente um menu com as opções:
+  - Saque  
+  - Depósito  
+  - Saldo  
+  - Sair  
+- O sistema **só deve ser encerrado quando o usuário digitar "sair"**.
+- Caso o usuário escolha qualquer outra opção, o programa deve executar a ação e depois **retornar ao menu**.
 
-## Regras e Validações
-- O depósito inicial deve ser um número maior ou igual a zero.  
-- Para saques, o valor não pode ser maior que o saldo disponível.  
-- Para depósitos, o valor deve ser maior que zero.  
-- O programa deve aceitar variações de respostas afirmativas para realizar operações, como `"sim"`, `"s"` ou `"si"`.  
+## ⚠️ Regras
+- Utilize boas práticas de organização do código.
+- Valide a opção digitada pelo usuário.
+- Exiba mensagens claras para cada operação.
 
-## Exemplo de Execução
+## 💡 Dica
+Use uma variável de controle (por exemplo: `opcao`) dentro de um `while` para repetir o menu até que o usuário digite `"sair"`.
