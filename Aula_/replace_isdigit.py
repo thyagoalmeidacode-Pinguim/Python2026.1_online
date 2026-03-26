@@ -7,5 +7,5 @@ valor = "100.0.0"
 print(valor.replace(".","",1))
 
 #Função isdigit()
-idade = "Senac"
+idade = "10"
 print(idade.isdigit())
