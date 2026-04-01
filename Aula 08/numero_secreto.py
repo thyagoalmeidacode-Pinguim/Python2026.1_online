@@ -1,67 +1,57 @@
-import random
-#Definir o numero secreto(Valor aleatorio)
-numero_secreto = random.randrange(10,101)
-#print(numero_secreto)
-fichas = 0
-pontos = 100
-
-#Definindo os níveis
-nivel = int(input("Escolha um nível: \n 1 - fácil, \n 2 - Médio, \n 3 - Difícil "))
-if nivel == 1:
-    fichas = 20    
-    ganhei = 5
-    perdi = 2
-elif nivel == 2:
-    fichas = 10
-    ganhei = 10
-    perdi = 5
-elif nivel == 3:
-    fichas = 5
-    ganhei = 15
-    perdi = 8
-else:
-    print("Valor invalido! ")   
-
-
-#Construir a lógica
-#try e except servem para fazer tratamento de erros
+total = 0
+quantidade1 = 0
+quantidade2 = 0
+quantidade3 = 0
+quantidade4 = 0
+quantidade5 = 0
+ 
+print("Bem Vindo a SalgadosDoRio")
+print(25*"-")
+print("        Cardápio")
+print(25*"-")
+ 
 try:
-    tentativa = 1
-    while tentativa <= fichas:
-    #Solicta o palpite de quem esta jogando
-        palpite = int(input("Informe seu palpite (entre 10 e 100): "))
-
-        if palpite < 10 or palpite > 100:
-            print("Valor informado esta fora do intervalo de 10 a 100.")
-            continue #O contnue so sera executado se a condição do if for verdadeira, Caso isso aconteça todo o restante do codigo abaixo que estriver dentro do while sera ignorado.     
-
-        print(f"Tentativa {tentativa} de {fichas}")
-        print(30*"-")
-    
-        if palpite == numero_secreto: #Valida se o usuario acertou
-            print("Parabéns!! Você Acertou!")
-            pontos += ganhei
-            print(f"Sua pontuação atual é: {pontos}")
+ 
+    while True:
+   
+        escolha = int(input(" 1 = [Coxinha] - R$5 \n 2 = [Risole de Camarão] - R$7 \n 3 = [Empada de Frango] - R$7 \n 4 = [Kibe] - R$6 \n 5 = [Joelho] - R$6 \n 0 = [Encerrar pedido] \n Escolha o seu salgado: "))
+ 
+        if escolha == 1:
+            quantidade1 +=1
+            total += 5
+            print(f"total: R${total}")
+            print("Pedido anotado!")
+        elif escolha == 2:
+            quantidade2 +=1
+            total += 7
+            print(f"total: R${total}")
+            print("Pedido anotado!")
+        elif escolha == 3:
+            quantidade3 +=1
+            total += 7
+            print(f"total: R${total}")
+            print("Pedido anotado!")
+        elif escolha == 4:
+            quantidade4 +=1
+            total += 6
+            print(f"total: R${total}")
+            print("Pedido anotado!")
+        elif escolha == 5:
+            quantidade5 +=1
+            total += 6
+            print(f"total: R${total}")
+            print("Pedido anotado!")
+        elif escolha == 0:
             break
-        elif palpite < numero_secreto:
-            print("Você errou, seu palpite é menor que o numero secreto!")
-            pontos -= perdi
-            print(f"Sua pontuação atual é: {pontos}")
         else:
-            print("Você errou, seu palpite é maior que o numero secreto! ")
-            pontos -= perdi
-            print(f"Sua pontuação atual é: {pontos}")
-        
-        #Incrementa a variavel tentativa para poder encerrar o loop
-        #tentativa = tentativa +  1
-        tentativa += 1
-    
-    if pontos < 0:
-        pontos = 0
-    
-    print(F"A sua pontução final foi {pontos}")
-    print(f"O numero secreto é: {numero_secreto} ")
-    print("Fim de jogo!")
+            print("Não possuímos este salgado no nosso cardápio")
+ 
+ 
+    if quantidade1 > 0 or quantidade2 > 0 or quantidade3 > 0 or quantidade4 > 0 or  quantidade5 > 0:
+        print(f"Pedido \n 1 = {quantidade1} \n 2 = {quantidade2} \n 3 = {quantidade3} \n 4 = {quantidade4} \n 5 = {quantidade5}")
 
+
+    print("Conta R$ ",total)
+ 
 except ValueError:
-    print("Valor Invalido!")
+        print("Valor Inválido")  
