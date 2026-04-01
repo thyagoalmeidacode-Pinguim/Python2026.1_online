@@ -51,14 +51,6 @@ O sistema deve:
 
 ---
 
-## 🚀 Desafio Extra (Opcional)
-
-- Mostrar a lista de pratos disponíveis para o jogador.
-- Validar se o usuário digitou um prato que existe na lista.
-- Criar níveis de dificuldade (ex: mais tentativas ou menos tentativas).
-- Adicionar dicas (ex: primeira letra do prato).
-
----
 
 ## 🎓 Objetivo de Aprendizagem
 
