@@ -55,3 +55,24 @@ print("Idades antes da inserção:  ", idades)
 idades.insert(3,"Thyago")
 print("Idades apos a inserção: ", idades)
 
+#Remover elementos da lista
+#remove() remove um iten da lista
+
+print("\nRevendo elementos da lista")
+print(idades)
+
+idades.remove(43)
+print("Lista com item removido: ", idades)
+idades.remove("Thyago")
+print("Lista com item removido: ", idades)
+
+#Removendo com pop()
+frutas = ["Laranja", "Maçã", "Limão", "Pera"]
+print(frutas)
+print("Remoção com pop()")
+
+frutas.pop(2) #Remove pelo indice
+print("Iten removido com pop", frutas)
+
+elemento = frutas.pop(2)
+print("Variavel elemento: ", elemento)
